@@ -1,4 +1,13 @@
-# Project Development Schedule
+# Mapping the Fate of the Dead Korean
+## Requirements
+This project is to establish an website which provides overview for the human rights 
+1) Overview - Human Rights in North Korea
+    - Constitutional Law
+    - Statistics Data (focused on health and welfare) - OpenAPI
+      - Website: https://kosis.kr/bukhan/statisticsList/statisticsListIndex.do?menuId=M_01_01_01&vwcd=MT_BUKHAN&rootId=101_001&parmTabId=M_01_01_01
+2) N
+
+## Project Development Schedule
 
 | Week | Goals | Details |
 |------|-------|---------|

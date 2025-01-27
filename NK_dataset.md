@@ -1,0 +1,1 @@
+https://kosis.kr/bukhan/statisticsList/statisticsListIndex.do?menuId=M_01_01_01&vwcd=MT_BUKHAN&rootId=101_001&parmTabId=M_01_01_01
