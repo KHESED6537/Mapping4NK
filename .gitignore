@@ -1,58 +1,37 @@
-# 공통
-.DS_Store             # macOS 시스템 파일
-Thumbs.db             # Windows 시스템 파일
-.idea/                # IntelliJ IDEA 설정 디렉토리
-.vscode/              # Visual Studio Code 설정 디렉토리
-*.log                 # 로그 파일
-*.bak                 # 백업 파일
-*.swp                 # Vim 스왑 파일
-.env                  # 환경 변수 파일 (비밀 키 포함)
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Node.js (React 프로젝트 관련)
-node_modules/         # npm 모듈
-build/                # React 빌드 결과물
-dist/                 # 번들된 결과물
-npm-debug.log*        # npm 디버그 로그
-yarn-debug.log*       # Yarn 디버그 로그
-yarn-error.log*       # Yarn 에러 로그
-package-lock.json     # Node.js 의존성 잠금 파일 (선택적으로 무시 가능)
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Java (Spring Boot 프로젝트 관련)
-*.class               # 컴파일된 Java 클래스 파일
-*.war                 # Java 웹 애플리케이션 배포 파일
-*.ear                 # Java 엔터프라이즈 애플리케이션 배포 파일
-target/               # Maven 빌드 디렉토리
-out/                  # 빌드 출력 디렉토리
-.idea/                # IntelliJ IDEA 프로젝트 설정
-.gradle/              # Gradle 설정 디렉토리
-build/                # Gradle 빌드 디렉토리
-*.iml                 # IntelliJ 프로젝트 파일
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Hibernate 관련
-*.hbm2ddl.log         # Hibernate DDL 로그
-*.db                  # 로컬 SQLite 데이터베이스 파일 (테스트용일 경우)
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# Python (AI 서비스 관련)
-__pycache__/          # Python 컴파일된 파일 디렉토리
-*.py[cod]             # Python 컴파일된 파일
-*.pyo                 # Python 최적화된 파일
-venv/                 # 가상 환경 디렉토리
-env/                  # 가상 환경 디렉토리
-*.ipynb_checkpoints   # Jupyter 노트북 체크포인트
-
-# PostgreSQL 데이터베이스 관련
-*.sql                 # SQL 스크립트 파일 (선택적으로 무시)
-*.dump                # PostgreSQL 데이터 덤프 파일
-
-# Docker 관련
-docker-compose.override.yml   # Docker Compose 환경별 설정 파일
-*.env                         # 환경 변수 파일
-.dockerignore                 # Docker 무시 파일
-
-# 기타
-*.log                 # 로그 파일
-*.tmp                 # 임시 파일
-*.bak                 # 백업 파일
-*.swp                 # Vim 임시 스왑 파일
-coverage/             # 테스트 커버리지 디렉토리
-.cache/               # 캐시 디렉토리
+### VS Code ###
+.vscode/
